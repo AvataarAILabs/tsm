@@ -20,12 +20,12 @@ Our goal is to find the **_smallest_** model that can solve this simple, yet int
 > 📄 **Paper**: Coming soon!
 
 ### Models
-We release 4 differentiation models, _Diff-TSMs_, spanning 135M to 1.5B parameters, trained using a combination of supervised finetuning (SFT) and reinforcement learning (RL). More details to follow in the paper and training code.
+We build 4 differentiation models, _Diff-TSMs_, spanning 135M to 1.5B parameters, trained using a combination of supervised finetuning (SFT) and reinforcement learning (RL). More details to follow in the paper and training code.
 
 | Link| Model Name |  Base Model |
 | :-: |----------------------|------------|
-| [🤗](https://huggingface.co/AvataarAI/Diff-TSM-SmolLM-135m)   |Diff-TSM-SmolLM-135M  | [SmolLM-135M-Instruct](https://huggingface.co/HuggingFaceTB/smollm-135m-instruct) |
-| [🤗](https://huggingface.co/AvataarAI/Diff-TSM-SmolLM-360m)   |Diff-TSM-SmolLM-360M  | [SmolLM-360M-Instruct](https://huggingface.co/HuggingFaceTB/smollm-360m-instruct) |
+|    |Diff-TSM-SmolLM-135M  | [SmolLM-135M-Instruct](https://huggingface.co/HuggingFaceTB/smollm-135m-instruct) |
+|    |Diff-TSM-SmolLM-360M  | [SmolLM-360M-Instruct](https://huggingface.co/HuggingFaceTB/smollm-360m-instruct) |
 | [🤗](https://huggingface.co/AvataarAI/Diff-TSM-Qwen-0.5B)   |Diff-TSM-Qwen-0.5B  | [Qwen2.5-0.5B-Instruct](https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct) |
 | [🤗](https://huggingface.co/AvataarAI/Diff-TSM-Qwen-1.5B)   |Diff-TSM-Qwen-1.5B  | [Qwen2.5-Math-1.5B-Instruct](https://huggingface.co/Qwen/Qwen2.5-Math-1.5B-Instruct) |
 
@@ -127,7 +127,6 @@ Results:
 | Diff-TSM-Qwen-1.5B                | **99.1%**    |
 | Diff-TSM-Qwen-0.5B                | **97.6%**    |
 | Diff-TSM-SmolLM-360M              | **97.3%**    |
-| Diff-TSM-SmolLM-135M-sft-s2404    | **93.1%**    |
 | Diff-TSM-SmolLM-135M              | **95.4%**    |
 
 <small>
@@ -156,8 +155,8 @@ If you find this work helpful, please cite us as follows:
 ```bibtex
 @misc{tslm,
   author       = {Shubham Goel and Shubham Jain and Gaurav Baid and Sravanth Aluru},
-  title        = {Task Specific Langugage Models},
-  howpublished = {https://github.com/AvataarAILabs/tslm},
+  title        = {Tiny Specialized Models},
+  howpublished = {https://github.com/AvataarAILabs/tsm},
   year         = {2025}
 }
 ```
